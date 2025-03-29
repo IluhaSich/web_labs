@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.gallery {
+    padding: 0;
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.gallery li {
+    margin: auto;
+    display: block;
+}
+
+.gallery img {
+    width: 100%;
+    border: 10px solid #FA8072; 
+    outline: 5px solid firebrick;
+    display: block;
+}

@@ -1,0 +1,17 @@
+body {
+    padding: 10px;
+}
+
+h1 {
+    background-color:#FA8072;
+    display: inline;
+    padding: 10px;
+}
+
+span {
+    background-color: firebrick;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+}

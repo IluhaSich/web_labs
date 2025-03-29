@@ -1,0 +1,15 @@
+
+#unordered ul {
+    list-style-type: none;
+    padding: 0;
+    width: 500px;
+    border: 5px solid firebrick;
+    box-sizing: border-box;
+}
+
+#unordered li {
+    width: 100%;
+    padding: 25px 50px;
+    border: 5px dashed #FA8072;
+    box-sizing: border-box;
+}
