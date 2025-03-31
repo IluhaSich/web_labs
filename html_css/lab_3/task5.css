@@ -1,30 +1,25 @@
-body {
-    margin: 0;
+ul {
+    list-style-type: none;
     padding: 0;
-}
+  }
 
-.gallery-container {
+  li {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    width: calc((100% / 3) - 40px);
+    box-sizing: border-box;
+  }
+
+  body {
     width: 80%;
     max-width: 960px;
     margin: 0 auto;
-    
-}
+  }
 
-.gallery {
-    padding: 0;
-    display: grid;  
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 70px;
-}
-
-.gallery li {
-    margin: auto;
-    display: block;
-}
-
-.gallery img {
+  img {
+    border: rgb(226, 162, 154) 10px solid;
+    outline: FireBrick 5px solid;
+    box-sizing: border-box;
     width: 100%;
-    border: 10px solid #FA8072; 
-    outline: 5px solid firebrick;
-    display: block;
-}
+  }
